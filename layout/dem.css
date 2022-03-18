@@ -1,0 +1,77 @@
+/*
+// Zugzwang Project
+// deutsche-schachjugend.de
+// Copyright (c) 2005-2016 Gustaf Mossakowski <gustaf@koenige.org> and others
+// CSS
+*/
+
+html, body	{ height: 100%; }
+body		{ margin: 0; padding: 0; line-height: 1.44; 
+			font-family: Helvetica, sans-serif; color: black; }
+
+h1			{ margin-bottom: 0; font-size: 150%; line-height: 1.1; }
+h2			{ font-size: 120%; margin: 1.5em 0 .5em; line-height: 1.1; }
+h3			{ font-size: 120%; font-weight: normal; margin: 1.5em 0 .25em; }
+.meldung h2	{ font-size: 120%; font-weight: normal; }
+h4			{ margin-bottom: 0; }
+
+div h2:first-child, div h3:first-child
+			{ margin-top: 0; }
+
+p, ul, ol, dl
+			{ margin: .5em 0; }
+ul ul, ol ol, ul ol, ol ul
+			{ margin: 0; }
+p, li, dd	{ max-width: 50em; }
+p.abstract	{ max-width: 45em; }
+
+a:link		{ color: blue; }
+
+#full		{ position: relative; /* needed for footer positioning */
+			height: auto !important; /* IE6: treated as min-height */
+			min-height: 100%; /* real browsers */ }
+#fuss		{ font-size: 90%; margin: 2em 0 0; padding: 1em 0; color: #333;
+			position: absolute; bottom: 0; width: 100%; text-align: center; 
+			clear: both; }
+#text		{ margin: .5em 1.5em 0; overflow: hidden; padding-bottom: 5em; }
+
+#nav ul		{ padding: 0; margin: 0 .9em; list-style: none; }
+#nav li		{ float: left;  margin: 0; vertical-align: middle; line-height: 1.5; }
+#nav li + li
+			{ border-left: 1px solid #999; }
+#nav		{ background-color: #E0E0E0; margin: 0; padding: 0; overflow: hidden; 
+			font-size: 90%; }
+#nav .inputfeld	{ height: 1.2em; }
+#nav a, #nav strong, #nav strong, #nav span
+			{ display: block; padding: .4em .75em; }
+#nav a:hover, #nav a.below, #nav strong
+			{ background: #DDD; }
+#nav a strong	{ display: inline; padding: 0; }
+
+#breadcrumbs
+			{ font-size: 90%; margin: .5em 1.66em; max-width: none; color: #333; }
+#breadcrumbs a, #nav a, #fuss a
+			{ text-decoration: none; }
+#breadcrumbs a:hover, #nav a:hover, #fuss a:hover
+			{ text-decoration: underline; }
+
+#navintern	{ clear: left; }
+#navintern .below
+			{ font-weight: bold; }
+
+div#logodsj	{ position: absolute; top: 0; right: 0; width: 144px; }
+
+#kopf		{ width: 100%; color: white; height: 100px; background-color: black;
+			text-align: left; margin-top: 0; padding-top: 0; position: relative; 
+			min-height: 4em; }
+#dem		{ line-height: 1.1; position: absolute; bottom: 1em; left: 1.5em; }
+#dem a		{ text-decoration: none; color: white; }
+
+.tournament	{ max-width: none; margin: 0 auto; text-align: left; padding: 0 1.5em; 
+			position: relative; top: -5em; }
+.tournament table
+			{ float: left; }
+.text		{ padding: 0 1.5em; }
+.text nav	{ position: relative; top: -5em; }
+
+#fullmap	{ height: 640px; }

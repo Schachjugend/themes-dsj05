@@ -1,0 +1,13 @@
+/*
+// Zugzwang Project
+// deutsche-schachjugend.de
+// Copyright (c) 2005-2012 Gustaf Mossakowski <gustaf@koenige.org> and others
+// CSS blau
+*/
+
+body		{ background: url(/_layout/chessy-gruen.gif) #A1CF6B fixed no-repeat center; }
+h1, h2, h3	{ color: #539c00; }
+#kopf		{ background-color: #539c00; color: white; }
+
+#nav a:hover, #nav a.below, #nav strong
+			{ background: #A1CF6B; }

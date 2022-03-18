@@ -1,0 +1,87 @@
+/*
+// Zugzwang Project
+// deutsche-schachjugend.de
+// Copyright (c) 2005-2012 Gustaf Mossakowski <gustaf@koenige.org> and others
+// CSS rot
+*/
+
+body		{ background: url(/_layout/chessy-rot.gif) #ffd298 fixed no-repeat center; }
+h1, h2, h3	{ color: #C00; }
+#kopf		{background-color: #C00; color: white;}
+
+#nav a:hover, #nav a.below, #nav strong
+			{ background: #ffd298; }
+
+
+table.daten {border-collapse: collapse;}
+table.daten td, table.daten th {font-size: .9em;}
+
+/* table.daten td + td {border-left: solid 1px #000;} */
+
+table.daten td, table.daten th { border-bottom: 1px solid #000; padding-right: .2em;}
+tr.header2 td, tr.header th {border-bottom: 2px solid #000;}
+
+div.kasten {width: 17em; }
+div.kasten h2 {display: none;}
+div.kasten label {display: block;}
+html div.kasten {float: right; margin-left: 2em;} /* vor NN 4.x verstecken */
+
+/* partien */
+
+.partien { width: 40em; float: left;}
+.kommentar {float: left;}
+
+/* anmeldung.css */
+
+table.ergebnis {
+	background-color : #eec187; 
+	/* #3D3D8B; */
+}
+.header {
+	background-color : #EFEFEF;
+}
+.inaktiv {
+	background-color : #FAE6E6;
+}
+
+.error {
+	font-weight : bold;
+	color : #F0072E;
+}
+.required, .show {
+	font-weight : bold;
+}
+
+.klein,.navigation,.copy { 
+	font-size : 90%;
+}
+.titel { font-weight : bold; color : #F0072E; font-size: 180%; }
+.ueberschrift { font-size : 144%; font-weight : bold; color : #3D3D8B; }
+
+.copy {
+	margin-top : 30px;
+	text-align : center;
+	padding : 2px;
+}
+
+.error {
+	font-weight : bold;
+	color : #F0072E;
+}
+.required, .show {
+	font-weight : bold;
+}
+
+table.ergebnis {
+	background-color : #3D3D8B;
+}
+.navigation {
+	background-color : #eec187;
+}
+.header {
+	background-color : #eec187;
+}
+
+.navigation,.copy  {
+	padding : 2px;
+}
